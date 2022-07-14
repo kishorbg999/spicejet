@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="validuname" value="Admin" />
+		<parameter name="validpass" value="admin123" />
+		<classes>
+
+			<class name="ATest_Java.LoginPageTesttt" />
+			<class name="ATest_Java.DashboardTestttt" />
+			<class name="ATest_Java.AdminTesttt" />
+			
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
